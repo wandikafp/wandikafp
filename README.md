@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+My name is Wandika Febriano Pangaribuan, a Senior Software Engineer
 <!--
 **wandikafp/wandikafp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
