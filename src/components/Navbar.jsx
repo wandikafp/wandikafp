@@ -30,7 +30,7 @@ export default function Navbar() {
         <a href="#experience" onClick={(e) => handleNavClick(e, 'experience')} className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">EXPERIENCE</a>
         <a href="#education" onClick={(e) => handleNavClick(e, 'education')} className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">EDUCATION</a>
         <a href="#skills" onClick={(e) => handleNavClick(e, 'skills')} className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">SKILLS</a>
-        <Link to="/projects" className={`transition-colors ${!isHome ? 'text-[var(--color-accent)]' : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]'}`}>PROJECTS</Link>
+        <a href="#projects" onClick={(e) => handleNavClick(e, 'projects')} className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">PROJECTS</a>
       </div>
       {/* Mobile Nav Fallback */}
       <div className="md:hidden flex gap-4 text-sm font-semibold tracking-widest uppercase">
